@@ -1,0 +1,35 @@
+/* element selectors are normal for individually selecting and styling and id two of the element have to be styled same way then they can be grouped as well */
+/* id selectors if we have tw heading and we want to style it differently then we have to assign different ids to both of the headings and for styling we have to using the # followed by id. */
+#heading {
+  color: green;
+  background: black;
+}
+#sub {
+  color: red;
+  background: black;
+}
+
+/* class selectors need not mean to be unique but if a bunch of elements are to styled in a same way then same class has to assigned to all the element. And for styling unlike id here .classname is used.Also id and classes can be used combiningly and can be used with multiple classes*/
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: greenyellow;
+}
+#title {
+  color: blue;
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.blue {
+  color: blue;
+}
